@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>wp2014_hw2</title>
+		<link rel="stylesheet" type="text/css" href="hw2.css">
+		
+	</head>
+	
+	<body>
+		<div class="whole_content container">
+		
+			<nav class="menu">
+				<ul >
+                  <li class="menu1"><a href="hw2.html">About</a></li>
+                  <li class="menu2"><a href="hw2contact.html" >Contact</a></li>
+				</ul>
+			</nav>
+			<section class="main_contain grid_12" >
+       
+                    <div class="Contact">
+
+                    <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDZ3dGNNLVFBTjR4bktTNGhQVEFfa3c6MA&amp;ifq" method="POST">
+                       
+                        <input type="hidden" name="entry.0.single" value="100703009">
+
+
+                        <h3>Gender</h3>
+                        <input type="radio" name="entry.1.group" value="Boy" id="Boy">
+                          <label for="Boy">  Boy</label>
+
+                        <input type="radio" name="entry.1.group" value="Girl" id="Girl">
+                        <label for="Girl">  Girl</label>
+
+                        <h3>Favorite Food</h3>
+                        <ul>
+                          <li>
+                            <input type="checkbox" name="entry.2.group" id="Apple" value="Apple">
+                            <label for="Apple">Apple</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="entry.2.group" id="Banana" value="Banana">
+                            <label for="Banana">Banana</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="entry.2.group" id="Lemon<" value="Lemon">
+                            <label for="Lemon<">Lemon</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="entry.2.group" id="Watermelon" value="Watermelon">
+                            <label for="Watermelon">Watermelon</label>
+                          </li>
+                        </ul>
+
+                        <h3>Relational</h3>
+                        <select name="entry.3.single">
+                                    <option value="Single">Single
+                                    <option value="Dating">Dating
+                                    <option value="MArried">Married
+                                    <option value="Hard to explain">Hard to explain
+                                    
+                        </select>
+
+                        <h3>Email</h3>
+                            <input type="text" name="entry.4.single">
+                        
+                        <h3>Comments</h3>
+                        
+                        <textarea name="entry.5.single" cols="30" rows="5"></textarea>
+
+                        <input type="submit" value="送出" name="submit">
+
+                        </form>
+                    </div>
+
+            </section> 
+		</div>
+	</body>
+</html>
